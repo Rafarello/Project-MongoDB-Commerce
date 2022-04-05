@@ -4,4 +4,16 @@
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
 
 use('commerce');
-db.produtos.countDocuments({});
+
+db.produtos
+  .find(
+    {
+      $and: [
+        { curtidas: { $gt: 10, $lt: 100 } },
+      ],
+    },
+    { _id: 0, nome: 1, curtidas: 1 },
+  )
+  .sort(
+    { vendidos: 1 },
+  );
