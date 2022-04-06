@@ -7,13 +7,13 @@ use('commerce');
 
 db.produtos.countDocuments(
   {
-    nome: { 
-      $regex: /Mc/i  
+    ingredientes: { 
+      $size: 4  
     }
   }
 )
 
 db.produtos.find(
   {},
-  { _id: 0, nome: 1 }
+  { _id: 0, nome: 1, ingredientes: 1 }
 )
