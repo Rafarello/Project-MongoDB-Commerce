@@ -5,14 +5,15 @@
 
 use('commerce');
 
-db.produtos.find(
+db.produtos.updateOne(
   {
-    valoresNutricionais: {
-      $elemMatch: {
-        tipo: "proteínas",
-        percentual: { $gte: 30, $lte: 40 },
-      },
-    },
+    nome: "Big Mac"
   },
-  { _id: 0, nome: 1 },
+  {
+    $set: { ultimaModificacao: {$type: new Date()}}
+  }
+)
+
+db.produtos.find(
+  
 );
