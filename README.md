@@ -6,6 +6,7 @@
 
 - [Boas vindas ao repositório do projeto de MongoDB Commerce!](#boas-vindas-ao-repositório-do-projeto-de-mongodb-commerce)
 - [Sumário](#sumário)
+- [Resumo](#Resumo)
 - [Habilidades](#habilidades)
 - [Ferramenta de qualidade de código](#Ferramenta-de-qualidade-de-código)
 - [Requisitos do projeto](#requisitos-do-projeto)
@@ -46,6 +47,12 @@
 - [Avisos Finais](#avisos-finais)
 
 ---
+
+# Resumo
+
+Nesse projeto foram feitas diversas buscas utilizando o MongoDB, que é um banco de dados não relacional. 
+
+Cada arquivo representa um desafio que representa um requisito, onde nestes foi necessário realizar uma busca, atualização, inserção ou subtração do banco de dados original.
 
 # Habilidades
 Neste projeto, foi colocado em prática:
@@ -318,36 +325,3 @@ Para isso, escreva no arquivo `desafio30.js` duas queries, **nesta ordem**:
 
 ---
 
-# Depois de terminar o desenvolvimento (OPCIONAL)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-# Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-\#VQV 🚀
-
----
-
-# Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](http://schimmel.biz)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----
